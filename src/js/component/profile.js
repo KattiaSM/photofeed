@@ -9,7 +9,7 @@ export function Profile() {
 					<textarea
 						className="form-control"
 						rows="2"
-						placeholder="What are you thinking?"></textarea>
+						placeholder="What do you want to plant?"></textarea>
 					<div className="mar-top clearfix">
 						<button
 							className="btn btn-md btn-primary pull-right"
@@ -29,9 +29,35 @@ export function Profile() {
 					<div className="card">
 						<div className="card-header">
 							<h4 className="titulo">Preparando el suelo</h4>
-							<button type="button" className="btn btn-link">
-								1/3
-							</button>
+							<div className="dropdown">
+								<button
+									className="btn btn-secondary dropdown-toggle"
+									type="button"
+									id="dropdownMenuButton1"
+									data-bs-toggle="dropdown"
+									aria-expanded="false">
+									Dropdown button
+								</button>
+								<ul
+									className="dropdown-menu"
+									aria-labelledby="dropdownMenuButton1">
+									<li>
+										<a className="dropdown-item" href="#">
+											Action
+										</a>
+									</li>
+									<li>
+										<a className="dropdown-item" href="#">
+											Another action
+										</a>
+									</li>
+									<li>
+										<a className="dropdown-item" href="#">
+											Something else here
+										</a>
+									</li>
+								</ul>
+							</div>
 						</div>
 						<img
 							src="https://casaydiseno.com/wp-content/uploads/2016/05/tierra-fertil-abononatural.jpg"
@@ -41,19 +67,20 @@ export function Profile() {
 						<div className="card-body">
 							<h5 className="card-title">23 Likes</h5>
 							<p className="card-text">
-								Lorem ipsum dolor sit amet, consectetur
-								adipiscing elit. Quisque non elit ornare,
-								interdum libero id, ultrices sem. Duis molestie
-								elementum ipsum et eleifend. Nunc porta.
+								Preparar el suelo antes de sembrar tu huerta
+								permitira una siembra eficiente. Quitar la
+								maleza, allanar y abonar son los pasos basicos
+								para iniciar a plantar. #hortalizas #organico
+								#hechoencasa.
 							</p>
 							<button
 								type="button"
-								className="btn btn-light btn-sm">
+								className="btn btn-light btn-md">
 								<i className="far fa-heart"></i>
 							</button>
 							<button
 								type="button"
-								className="btn btn-light btn-sm">
+								className="btn btn-light btn-md">
 								<i className="far fa-comment-alt"></i>
 							</button>
 							<input
@@ -67,7 +94,7 @@ export function Profile() {
 							<div className="card-header">
 								<h4 className="titulo">Mis chiles jalapeños</h4>
 								<button type="button" className="btn btn-link">
-									2/3
+									<i className="fas fa-caret-square-down"></i>
 								</button>
 							</div>
 							<img
@@ -86,12 +113,12 @@ export function Profile() {
 								</p>
 								<button
 									type="button"
-									className="btn btn-light btn-sm">
+									className="btn btn-light btn-md">
 									<i className="far fa-heart"></i>
 								</button>
 								<button
 									type="button"
-									className="btn btn-light btn-sm">
+									className="btn btn-light btn-md">
 									<i className="far fa-comment-alt"></i>
 								</button>
 								<input
@@ -107,7 +134,7 @@ export function Profile() {
 									<button
 										type="button"
 										className="btn btn-link">
-										3/3
+										<i className="fas fa-caret-square-down"></i>
 									</button>
 								</div>
 								<img
@@ -126,12 +153,12 @@ export function Profile() {
 									</p>
 									<button
 										type="button"
-										className="btn btn-light btn-sm">
+										className="btn btn-light btn-md">
 										<i className="far fa-heart"></i>
 									</button>
 									<button
 										type="button"
-										className="btn btn-light btn-sm">
+										className="btn btn-light btn-md">
 										<i className="far fa-comment-alt"></i>
 									</button>
 									<input
