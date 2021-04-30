@@ -11,11 +11,6 @@ export function Profile() {
 						rows="2"
 						placeholder="What do you want to plant?"></textarea>
 					<div className="mar-top clearfix">
-						<button
-							className="btn btn-md btn-primary pull-right"
-							type="submit">
-							Share
-						</button>
 						<button type="button" className="btn btn-light btn-md">
 							<i className="fas fa-camera"></i>
 						</button>
@@ -27,13 +22,18 @@ export function Profile() {
 								<i className="far fa-object-group"></i>
 							</a>
 						</button>
+						<button
+							className="btn btn-primary btn-md-end"
+							type="submit">
+							Share
+						</button>
 					</div>
 				</div>
 
 				<div className="container">
 					<div className="card">
 						<div className="card-header">
-							<h4 className="titulo">Preparando el suelo</h4>
+							<h4 className="titulo">Preparar el suelo</h4>
 							<small className="text-muted">
 								Today 7:21 am - 25.04.2021
 							</small>
@@ -46,11 +46,13 @@ export function Profile() {
 									<li>
 										<a href="#">
 											<i className="fas fa-pencil-alt"></i>
+											Editar
 										</a>
 									</li>
 									<li>
 										<a href="#">
 											<i className="fas fa-trash-alt"></i>
+											Borrar
 										</a>
 									</li>
 								</ul>
@@ -86,6 +88,11 @@ export function Profile() {
 								id="recipient-name"
 								value="Escriba un comentario..."
 							/>
+							<button
+								type="button"
+								className="btn btn-light btn-md">
+								<i className="far fa-paper-plane"></i>
+							</button>
 						</div>
 
 						<div className="card">
@@ -103,11 +110,13 @@ export function Profile() {
 										<li>
 											<a href="#">
 												<i className="fas fa-pencil-alt"></i>
+												Editar
 											</a>
 										</li>
 										<li>
 											<a href="#">
 												<i className="fas fa-trash-alt"></i>
+												Borrar
 											</a>
 										</li>
 									</ul>
@@ -143,6 +152,11 @@ export function Profile() {
 									id="recipient-name"
 									value="Escriba un comentario..."
 								/>
+								<button
+									type="button"
+									className="btn btn-light btn-md">
+									<i className="far fa-paper-plane"></i>
+								</button>
 							</div>
 
 							<div className="card">
@@ -160,11 +174,13 @@ export function Profile() {
 											<li>
 												<a href="#">
 													<i className="fas fa-pencil-alt"></i>
+													Editar
 												</a>
 											</li>
 											<li>
 												<a href="#">
 													<i className="fas fa-trash-alt"></i>
+													Borrar
 												</a>
 											</li>
 										</ul>
@@ -201,6 +217,11 @@ export function Profile() {
 										id="recipient-name"
 										value="Escriba un comentario..."
 									/>
+									<button
+										type="button"
+										className="btn btn-light btn-md">
+										<i className="far fa-paper-plane"></i>
+									</button>
 								</div>
 							</div>
 						</div>

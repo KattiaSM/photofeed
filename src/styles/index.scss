@@ -11,13 +11,20 @@ body{
 }
 
 .panel {
-    box-shadow: 0 2px 0 #030303;
-    border-radius: 0;
-    border: 0;
+    box-shadow: 0 5px 0 #fa0707;
+    border-radius: 5;
+    border: 5;
     margin-bottom: 15px;
+
+}
+
+.mar-top {
+    margin-top: 15px;
+
 }
 
 .panel-body {
     padding: 25px 20px;
-     background:#fa0707;
+    background:#03c4ca;
+    margin: 25px;
 }
