@@ -22,6 +22,11 @@ export function Profile() {
 						<button type="button" className="btn btn-light btn-md">
 							<i className="far fa-file-image"></i>
 						</button>
+						<button type="button" className="btn btn-light btn-md">
+							<a href="../home.js">
+								<i className="far fa-object-group"></i>
+							</a>
+						</button>
 					</div>
 				</div>
 
@@ -29,31 +34,23 @@ export function Profile() {
 					<div className="card">
 						<div className="card-header">
 							<h4 className="titulo">Preparando el suelo</h4>
+							<small className="text-muted">
+								Today 7:21 am - 25.04.2021
+							</small>
 							<div className="dropdown">
 								<button
-									className="btn btn-secondary dropdown-toggle"
+									className="dropdown-toggle btn btn-link"
 									type="button"
-									id="dropdownMenuButton1"
-									data-bs-toggle="dropdown"
-									aria-expanded="false">
-									Dropdown button
-								</button>
-								<ul
-									className="dropdown-menu"
-									aria-labelledby="dropdownMenuButton1">
+									data-toggle="dropdown"></button>
+								<ul className="dropdown-menu m-t-xs">
 									<li>
-										<a className="dropdown-item" href="#">
-											Action
+										<a href="#">
+											<i className="fas fa-pencil-alt"></i>
 										</a>
 									</li>
 									<li>
-										<a className="dropdown-item" href="#">
-											Another action
-										</a>
-									</li>
-									<li>
-										<a className="dropdown-item" href="#">
-											Something else here
+										<a href="#">
+											<i className="fas fa-trash-alt"></i>
 										</a>
 									</li>
 								</ul>
@@ -90,12 +87,31 @@ export function Profile() {
 								value="Escriba un comentario..."
 							/>
 						</div>
+
 						<div className="card">
 							<div className="card-header">
-								<h4 className="titulo">Mis chiles jalapeños</h4>
-								<button type="button" className="btn btn-link">
-									<i className="fas fa-caret-square-down"></i>
-								</button>
+								<h4 className="titulo">Mis chiles</h4>
+								<small className="text-muted">
+									11:12 pm - 12.11.2020
+								</small>
+								<div className="dropdown">
+									<button
+										className="dropdown-toggle btn btn-link"
+										type="button"
+										data-toggle="dropdown"></button>
+									<ul className="dropdown-menu m-t-xs">
+										<li>
+											<a href="#">
+												<i className="fas fa-pencil-alt"></i>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<i className="fas fa-trash-alt"></i>
+											</a>
+										</li>
+									</ul>
+								</div>
 							</div>
 							<img
 								src="https://http2.mlstatic.com/D_NQ_NP_745405-MLM25008365055_082016-O.jpg"
@@ -103,13 +119,13 @@ export function Profile() {
 								alt="..."
 							/>
 							<div className="card-body">
-								<h5 className="card-title">20 Likes</h5>
+								<h5 className="card-title">23 Likes</h5>
 								<p className="card-text">
-									Lorem ipsum dolor sit amet, consectetur
-									adipiscing elit. Quisque non elit ornare,
-									interdum libero id, ultrices sem. Duis
-									molestie elementum ipsum et eleifend. Nunc
-									porta.
+									Preparar el suelo antes de sembrar tu huerta
+									permitira una siembra eficiente. Quitar la
+									maleza, allanar y abonar son los pasos
+									basicos para iniciar a plantar. #hortalizas
+									#organico #hechoencasa.
 								</p>
 								<button
 									type="button"
@@ -128,14 +144,31 @@ export function Profile() {
 									value="Escriba un comentario..."
 								/>
 							</div>
+
 							<div className="card">
 								<div className="card-header">
 									<h4 className="titulo">Suculentas</h4>
-									<button
-										type="button"
-										className="btn btn-link">
-										<i className="fas fa-caret-square-down"></i>
-									</button>
+									<small className="text-muted">
+										4:21 pm - 12.06.2014
+									</small>
+									<div className="dropdown">
+										<button
+											className="dropdown-toggle btn btn-link"
+											type="button"
+											data-toggle="dropdown"></button>
+										<ul className="dropdown-menu m-t-xs">
+											<li>
+												<a href="#">
+													<i className="fas fa-pencil-alt"></i>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<i className="fas fa-trash-alt"></i>
+												</a>
+											</li>
+										</ul>
+									</div>
 								</div>
 								<img
 									src="https://undergreen.net/wp-content/uploads/sites/6/2019/05/sukkulenten-kakteen-pflege-2-540x540.jpg"
@@ -143,13 +176,14 @@ export function Profile() {
 									alt="..."
 								/>
 								<div className="card-body">
-									<h5 className="card-title">20 Likes</h5>
+									<h5 className="card-title">23 Likes</h5>
 									<p className="card-text">
-										Lorem ipsum dolor sit amet, consectetur
-										adipiscing elit. Quisque non elit
-										ornare, interdum libero id, ultrices
-										sem. Duis molestie elementum ipsum et
-										eleifend. Nunc porta.
+										Preparar el suelo antes de sembrar tu
+										huerta permitira una siembra eficiente.
+										Quitar la maleza, allanar y abonar son
+										los pasos basicos para iniciar a
+										plantar. #hortalizas #organico
+										#hechoencasa.
 									</p>
 									<button
 										type="button"
