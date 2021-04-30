@@ -10,7 +10,7 @@ export function Profile() {
 						className="form-control"
 						rows="2"
 						placeholder="What do you want to plant?"></textarea>
-					<div className="mar-top clearfix">
+					<div className="mar-top">
 						<button type="button" className="btn btn-light btn-md">
 							<i className="fas fa-camera"></i>
 						</button>
